@@ -15,6 +15,7 @@ module.exports = {
       transparent: 'transparent',
       blue: '#1fb6ff',
       purple: '#7e5bef',
+      white: "rgb(255 255 255)",
       yellow: colors.yellow,
       // vs
       green:{

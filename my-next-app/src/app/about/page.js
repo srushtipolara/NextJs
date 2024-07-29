@@ -4,6 +4,7 @@ import axios from 'axios';
 import Image from 'next/image';
 import Button from '@/view/button';
 import done from '../../../assets/done_all_24px.jpg'
+import ColorPicker from '@/view/ColorPicker';
 
 export const metadata = {
   title: 'About'
@@ -33,12 +34,14 @@ const Page = async () => {
           return (
             <React.Fragment key={index}>
               <Link href={`/blog/${item._id}`}>{item.title}</Link>
-              <Button item={item}/>
+              <Button item={item} />
               <br />
             </React.Fragment>
           )
         })
       }
+
+      <ColorPicker />
     </main>
   )
 }

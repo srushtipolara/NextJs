@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className={styles.main} style={{ height: "500px" }}>
       <h1 ><p className="underline font-bold text-2xl bg-[#1da1f2] text-yellow-300">Hello</p>
-        <p className="text-base/6 bg-purple text-green-200">So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
+        <p className="text-base/6 bg-purple text-green-200">So I started to walk into the water. I won&apos;t lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don&apos;t know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
       </h1>
       <Link href={{
         pathname: "/about",
